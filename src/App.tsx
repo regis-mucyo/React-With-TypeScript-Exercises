@@ -1,12 +1,6 @@
-import NavBar from "./components/NavBar";
-import Main from "./components/Main";
+import { ToDo } from "./components/ToDo";
 const App = () => {
-  return (
-    <>
-      <NavBar />
-      <Main />
-    </>
-  );
+  return <ToDo />;
 };
 
 export default App;
